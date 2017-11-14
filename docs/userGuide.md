@@ -112,9 +112,9 @@ Ready to tweet? Just type your tweet and hit enter. But simply broadcasting is n
 
 oysttyer provides many commands, all of which begin with `/`. For the sake of your followers, anything that starts with `/` is treated as a command and oysttyer will let you know if it doesn't recognize it. If you want to start a tweet with `/`, double it (`//`). The tables below describe most of the oysttyer commands, in hopefully-helpful sections:
 
-* [oysttyer commands](#commands-oysttyer)
 * [tweet commands](#commands-tweet)
 * [user commands](#commands-user)
+* [oysttyer commands](#commands-oysttyer)
 * [list commands](#commands-list)
 
 Commands that return multiple responses default to 20, but that can be adjusted by specifying +*N* after the command name. For example:
@@ -200,7 +200,7 @@ This section is not yet written
 
 You can set many options using command line options:
 
-    $ perl ./oysttyer -ansi=1 -newline=1 -vcheck
+    $ perl ./oysttyer -ansi -newline -vcheck
 
 but these can also be set in a configuration file. The standard file is `~/.oysttyerrc`, but another one can be chosen using the `-f` command line option.
 
